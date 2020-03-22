@@ -79,4 +79,8 @@ tbody {
     .order-status-navbar {
         display: none;
     }
+    .navbar-items ul {
+        display: flex;
+        justify-content: space-between;
+    }
 }

@@ -78,6 +78,9 @@ body {
     display: block;
     margin: 0 auto;
 }
+.on-desktop {
+    display: none;
+}
 .footer {
     width: 100%;
     max-width: 100%;
@@ -108,6 +111,13 @@ body {
     
     .submission-form {
         width: 90%;
+    }
+    .on-mobile {
+       
+        display: none;
+    }
+    .on-desktop {
+        display: block;
     }
 
 }

@@ -1,0 +1,101 @@
+body {
+    background-color: #e3f2fd;
+    font-family: Roboto;
+}
+.navigation-bar {
+    width: 100%;
+    max-width: 100%;
+    height: 3rem;
+    background-color: #37474f;
+    color: #fff;
+}
+.navbar-items {
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-items ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items ul li {
+    margin-right: 1rem;
+}
+.get-qoute button {
+  
+    background-color: #e65100;
+    color: #fff;
+  
+}
+.messages {
+    font-size: 1.5rem;
+}
+.username {
+    font-weight: 700;
+}
+.notification-container {
+    min-height: 85vh;
+}
+
+.new_notications label{
+    margin-right: 1rem;
+}
+
+.btn-notification {
+    background-color: #e65100;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    max-width: 100%;
+    height: 4rem;
+    background-color: #37474f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer span {
+    font-style: italic;
+}
+
+@media screen and (max-width:480px) {
+    .navbar-items {
+        justify-content: center;
+    }
+    .order-status-navbar {
+        display: none;
+    }
+    
+    .navbar-items ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}

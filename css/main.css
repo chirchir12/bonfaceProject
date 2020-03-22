@@ -108,9 +108,12 @@ body {
         text-align: center;
         padding: .5rem;
     }
+    .submit-assignment-form {
+        width: 98%;
+    }
     
     .submission-form {
-        width: 90%;
+        width: 94%;
     }
     .on-mobile {
        

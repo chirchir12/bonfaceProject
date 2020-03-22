@@ -76,14 +76,15 @@ tbody {
 
 
 @media screen and (max-width:480px) {
-    .order-status-navbar {
-        display: none;
-    }
     .navbar-items {
         justify-content: center;
     }
+    .order-status-navbar {
+        display: none;
+    }
+    
     .navbar-items ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }

@@ -92,3 +92,22 @@ body {
 .footer span {
     font-style: italic;
 }
+
+@media screen and (max-width:480px) {
+    .navbar-items {
+        justify-content: center;
+    }
+    .navbar-items ul {
+        justify-content: space-between;
+    }
+    .submission-header h1{
+        font-size: 1rem;
+        text-align: center;
+        padding: .5rem;
+    }
+    
+    .submission-form {
+        width: 90%;
+    }
+
+}

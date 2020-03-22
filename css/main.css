@@ -1,0 +1,94 @@
+body {
+    background-color: #e3f2fd;
+    font-family: Roboto;
+}
+.navigation-bar {
+    width: 100%;
+    max-width: 100%;
+    height: 3rem;
+    background-color: #37474f;
+    color: #fff;
+}
+.navbar-items {
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navbar-items ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items ul li {
+    margin-right: 1rem;
+}
+.get-qoute button {
+  
+    background-color: #e65100;
+    color: #fff;
+  
+}
+
+
+.submit-assignment-form {
+    width: 95%;
+    margin: 1rem auto;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    
+    
+}
+.submission-header {
+    width: 100%;
+    background-color: #607d8b;
+    color: #fff;
+}
+
+.submission-header h1{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 600;
+    padding: .5rem;
+}
+.submission-form {
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.upload_more {
+    display: block;
+    margin: .5rem 0;
+    background-color: #e65100;
+    color: #fff;
+    font-size: .6rem;
+    
+}
+.submission-btn {
+    display: block;
+    margin: 0 auto;
+}
+.footer {
+    width: 100%;
+    max-width: 100%;
+    height: 4rem;
+    background-color: #37474f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer span {
+    font-style: italic;
+}

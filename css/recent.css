@@ -42,23 +42,49 @@ body {
 .username {
     font-weight: 700;
 }
-.notification-container {
-    min-height: 85vh;
+.recent-orders-body {
+    width: 90%;
+    margin: 0 auto;
 }
 
-.new_notications label{
-    margin-right: 1rem;
+.recent-orders {
+    min-height: 76vh;
 }
 
-.btn-notification {
+.preference-button {
+    background-color: #e65100;
+    color: #ffff;
+}
+.order-view-btn {
     background-color: #e65100;
     color: #fff;
 }
+.order-id {
+    color: #0091ea;
+}
+.deadline {
+    color: #e65100;
+}
+.pending {
+    background-color: #fbc02d;
+    color: #fff;
+    padding: .3rem 1rem;
+    border-radius: 10%;
+    font-weight: 700;
+}
+.danger {
+    color: #e65100;
+}
 
-/* completed page */
-.noresultsfound {
-    display: block;
-    text-align: center;
+.send-messge-form {
+    margin-top: 2rem;
+    width: 80%;
+    padding: 1rem 4rem;
+    border: 1.5px solid #0091ea;
+}
+.message-send-btn {
+    background-color: #e65100;
+    color: #fff;
 }
 
 
@@ -104,4 +130,8 @@ body {
         display: flex;
         justify-content: space-around;
     }
+    .recent-orders-body {
+        width: 100%;
+        margin: 0 auto;
+    } 
 }

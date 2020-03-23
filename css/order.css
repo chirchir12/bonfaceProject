@@ -46,4 +46,8 @@
     .onMobile button{
         font-size: .5rem;
     }
+    .onMobile .moreoptions {
+        background-color: #e65100;
+        color:#fff;
+    }
 }

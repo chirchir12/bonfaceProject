@@ -104,4 +104,10 @@ body {
         display: flex;
         justify-content: space-around;
     }
+    .table-body-on-mobile td {
+        font-size: .6rem;
+    }
+    .btn-notification{
+        font-size: .6rem;
+    }
 }

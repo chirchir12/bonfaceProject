@@ -134,4 +134,11 @@ body {
         width: 100%;
         margin: 0 auto;
     } 
+    .send-messge-form {
+        width: 100%;
+
+    }
+    label.mobile{
+        font-size: .6rem;
+    }
 }

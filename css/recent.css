@@ -132,10 +132,11 @@ body {
     }
     .recent-orders-body {
         width: 100%;
-        margin: 0 auto;
+        
     } 
     .send-messge-form {
         width: 100%;
+        padding: 1rem 1rem;
 
     }
     label.mobile{

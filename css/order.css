@@ -127,4 +127,7 @@
     .table-body-on-mobile th, .table-body-on-mobile td {
         font-size: .6rem;
     }
+    .phone-background {
+        display: none!important;
+    }
 }

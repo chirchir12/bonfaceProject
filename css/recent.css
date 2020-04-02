@@ -32,7 +32,7 @@ body {
 }
 .get-qoute button {
   
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #fff;
   
 }
@@ -52,18 +52,18 @@ body {
 }
 
 .preference-button {
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #ffff;
 }
 .order-view-btn {
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #fff;
 }
 .order-id {
     color: #0091ea;
 }
 .deadline {
-    color: #e65100;
+    color: #ff9100;
 }
 .pending {
     background-color: #fbc02d;
@@ -73,7 +73,7 @@ body {
     font-weight: 700;
 }
 .danger {
-    color: #e65100;
+    color: #ff9100;
 }
 
 .send-messge-form {
@@ -83,7 +83,7 @@ body {
     border: 1.5px solid #0091ea;
 }
 .message-send-btn {
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #fff;
 }
 

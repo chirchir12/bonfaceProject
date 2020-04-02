@@ -4,13 +4,13 @@
     font-size: .9rem;
 }
 .cancel-order-btn {
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #fff;
     font-size: .9rem;
 }
 .order-buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .action-center {
     background-color: darkgray;
@@ -25,17 +25,90 @@
 }
 .message-buton {
     display: inline-block;
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #fff;
 }
 .order-background {
-    background-color:#e65100 ;
+    background-color:#ff9100 ;
     color: #fff;
 }
 .onMobile {
     display: none;
 }
+.phone-background.col-md-4 {
+    position: relative;
+    background-image: url(../images/letstalk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    
+}
 
+.chat-title {
+    position: absolute;
+    top: 4.3%;
+    width: 84.4%;
+    left: 8%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: #263238;
+    font-weight: 700;
+    background-color:#ff9100 ;
+    padding: .5rem 0;
+    
+}
+.chat-title span {
+    display: block;
+    text-align: center;
+    color:#fff;
+}
+.message-body {
+    position: absolute;
+    top: 13%;
+    left: 8%;
+    width: 84.4%;
+    padding: .5rem;
+    
+}
+.message.expert-message {
+    width: 80%;
+    
+    margin-bottom:.8rem ;
+    padding: .3rem;
+    border-radius: 4rem;
+    padding: .5rem 2rem;
+    background-color: rgba(255, 255, 255, .6);
+}
+.message.client-message {
+    width: 80%;
+    float: right;
+}
+.message.client-message textarea {
+    max-width: 100%;
+    border-radius: 4rem;
+
+}
+.message.client-message textarea:focus {
+    border-radius: 4rem;
+    outline: none;
+    outline: gray;
+    padding: .5rem 2rem ;
+
+}
+.action-sen {
+    clear: both;
+    display: flex;
+    margin-top: .5rem;
+    justify-content: flex-end;
+    margin-right: .7rem;
+
+}
+.btn-order {
+    background-color: #ff9100;
+    color: #fff;
+
+}
 @media screen and (max-width:480px) {
     .onDesktop {
         display: none;
@@ -47,7 +120,7 @@
         font-size: .5rem;
     }
     .onMobile .moreoptions {
-        background-color: #e65100;
+        background-color: #ff9100;
         color:#fff;
         font-size: .9rem;
     }

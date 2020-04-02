@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/notification.css">
     <title>Completed</title>
@@ -27,8 +28,10 @@
                 </ul>
             </div>
             <ul>
-                <li class="get-qoute"><button class="btn"><i class="fas fa-plus"></i> Get Quote</button></li>
-                <li class="messages"><i class="fas fa-envelope-square"></i></li>
+                <li class="get-qoute"><button class="btn"><i class="fas fa-plus"></i> Place Order</button></li>
+                <li><button type="button" class="btn btn-primary">
+                    Messages <span class="badge badge-light">4</span>
+                   </button></li>
                 <li class="username">John</li>
             </ul>
         </nav>
@@ -62,7 +65,9 @@
                                                 <label for="value" >Value</label><br>
                                                 <input type="text" class="form-control" id="value" placeholder="">
                                             </div>
-                                            <button type="submit" class="btn btn-primary mb-2">Go</button>
+                                            <button type="submit" class="btn btn-primary"><span class="material-icons">
+                                                search
+                                                </span></button>
                                         </form>
                                         <div class="dropdown-divider"></div>
                                        <div class="table-responsive-sm">
@@ -71,12 +76,11 @@
                                               <tr>
                                                 
                                                 <th scope="col">Order No</th>
-                                                <th scope="col">Solution Format</th>
+                                                <th scope="col">Paper Format</th>
                                                 <th scope="col">Academic Level</th>
-                                                <th scope="col">Request Type</th>
-                                                <th scope="col">Due Date</th>
+                                                <th scope="col">Work Type</th>
+                                                <th scope="col">Deadline</th>
                                                 <th scope="col">Timezone</th>
-                                                <th scope="col">Due Date</th>
                                                 <th scope="col">Action</th>
                                               </tr>
                                             </thead>

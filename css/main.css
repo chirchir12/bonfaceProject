@@ -10,6 +10,12 @@ body {
     background-color: #e3f2fd;
     font-family: Roboto;
 }
+.divider {
+    width: 100px;
+    height: 1px;
+    background: darkgray;
+    margin: .4rem 0;
+}
 .navigation-bar {
     width: 100%;
     max-width: 100%;
@@ -23,7 +29,7 @@ body {
     margin: 0 auto;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     
 }
 .navbar-items ul {
@@ -37,6 +43,9 @@ body {
 
 .navbar-items ul li {
     margin-right: 1rem;
+}
+.navbar-items ul li:hover {
+    color: #e65100;
 }
 .get-qoute button {
   

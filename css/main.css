@@ -1,5 +1,5 @@
 .active {
-    background-color: #e65100!important;
+    background-color: #ff9100!important;
     color: #fff!important;
 }
 .btn-group{
@@ -45,11 +45,11 @@ body {
     margin-right: 1rem;
 }
 .navbar-items ul li:hover {
-    color: #e65100;
+    color: #ff9100;
 }
 .get-qoute button {
   
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #fff;
   
 }
@@ -86,7 +86,7 @@ body {
 .upload_more {
     display: block;
     margin: .5rem 0;
-    background-color: #e65100;
+    background-color: #ff9100;
     color: #fff;
     font-size: .6rem;
     

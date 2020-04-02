@@ -109,6 +109,9 @@ body {
     align-items: center;
 
 }
+.only-on-mobile {
+    display: none;
+}
 .footer span {
     font-style: italic;
 }
@@ -138,6 +141,12 @@ body {
     }
     .on-desktop {
         display: block;
+    }
+    .only-on-mobile {
+        display: block;
+    }
+    .only-on-desktop {
+        display: none;
     }
 
 }

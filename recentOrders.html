@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/recent.css">
-    <title>Profile</title>
+    <title>Recent Order</title>
 </head>
 
 <body>
@@ -27,8 +27,10 @@
                 </ul>
             </div>
             <ul>
-                <li class="get-qoute"><button class="btn"><i class="fas fa-plus"></i> Get Quote</button></li>
-                <li class="messages"><i class="fas fa-envelope-square"></i></li>
+                <li class="get-qoute"><button class="btn"><i class="fas fa-plus"></i> Place Order</button></li>
+                <li><button type="button" class="btn btn-primary">
+                    Messages <span class="badge badge-light">4</span>
+                   </button></li>
                 <li class="username">John</li>
             </ul>
         </nav>
@@ -44,13 +46,6 @@
                         </div>
                         <div class="card-body">
                             <div class="recent-orders-body">
-                                <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                                    <strong>Hello Just checking on you!</strong> You should check in on some of the
-                                    fields below.
-                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
                                 <div class="alert alert-success" role="alert">
 
                                     <p>Would you like to receive SMS Notification ?</p>
@@ -59,34 +54,41 @@
                                 </div>
 
                                 <div class="card">
-                                    <div class="card-body">
-                                        <p>Order: <span class="order-id">AHD-3080</span> <button
-                                                class="btn order-view-btn"><i class="fas fa-eye-slash"></i>
-                                                View</button></p>
-                                        <p>Request Type: <span class="order-id">Online COurse</span> Deadline <span
-                                                class="deadline">3 days 21hrs 45mins </span></p>
-
-                                        <p>Submitted: <span class="order-id">22 seconds ago</span> Status: <span
-                                                class="pending">pending</span></p>
-
-                                        <p><span class="danger"><i class="fas fa-exclamation-triangle"></i></span> you
-                                            have <span class="order-id">(0)</span> messagea</p>
-
-                                            <form action="" method="post" class="send-messge-form">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label class="mobile" for="message">Support Agent: Pending</label>
-                                                            <textarea class="form-control" id="message" rows="3"></textarea>
-                                                          </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <label class="mobile" for="formGroupExampleInput2">Tutor: Pending</label><br>
-                                                        <button type="submit" class="btn message-send-btn mb-2">Send</button>
-                                                    </div>
+                                   <div class="row viewport-forchat-order">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <p>Order: <span class="order-id">AHD-3080</span> <button
+                                                    class="btn order-view-btn"><i class="fas fa-eye-slash"></i>
+                                                    View</button></p>
+                                            <p>Request Type: <span class="order-id">Online COurse</span> Deadline <span
+                                                    class="deadline">3 days 21hrs 45mins </span></p>
+    
+                                            <p>Submitted: <span class="order-id">22 seconds ago</span> Status: <span
+                                                    class="pending">pending</span></p>
+    
+                                            <p><span class="danger"><i class="fas fa-exclamation-triangle"></i></span> you
+                                                have <span class="order-id">(0)</span> messagea</p>
+    
+                                               
+                                        </div>
+                                       </div>
+                                        <div class="col-md-6">
+                                            <div class="chat-box shadow-lg mb-2 mt-4 bg-white rounded">
+                                                <div class="chat-header">
+                                                    <span>Talk to us</span>
                                                 </div>
-                                            </form>
-                                    </div>
+                                                <div class="message-expert shadow-lg mb-3 mt-3 bg-white rounded">
+                                                    <span>Hello, I am your expert, let me know how i may assist</span>
+                                                </div>
+                                                <div class="message-client shadow-lg mb-3 mt-3 bg-white rounded">
+                                                   <textarea name="" id="" cols="30" rows="2"></textarea>
+                                                   <button><i class="far fa-paper-plane"></i></button>
+                                                </div>
+
+                                            </div>
+                                             
+                                        </div>
+                                   </div>
                                 </div>
 
 
